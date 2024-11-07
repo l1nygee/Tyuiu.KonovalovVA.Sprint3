@@ -11,7 +11,7 @@ namespace Tyuiu.KonovalovVA.Sprint3.Task0.V22.Test
             int st = 1;
             int en = 8;
             DataService ds = new DataService();
-            double wait = 31.328;
+            double wait = 55217.446;
             double ans = ds.GetMultiplySeries(a, st, en);
             Assert.AreEqual(wait, ans);
         }
