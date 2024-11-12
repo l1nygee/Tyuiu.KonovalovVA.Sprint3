@@ -10,7 +10,7 @@ namespace Tyuiu.KonovalovVA.Sprint3.Task3.V21
             char c;
             Console.WriteLine("Введите строку и символ");
             s = Console.ReadLine();
-            c = Convert.ToChar(Console.ReadLine);  
+            c = Convert.ToChar(Console.ReadLine());  
             Console.Title = "Спринт #3 | Выполнил: Коновалов В.А. | ПКТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
